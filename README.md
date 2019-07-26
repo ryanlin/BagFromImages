@@ -10,9 +10,9 @@ Tested in ROS Fuerte.
 
 In your ROS_PACKAGE_PATH (check your environment variable ROS_PACKAGE_PATH):
 
-    git clone https://github.com/ryanlin/BagFromLabelledImages.git BagFromImages
+    git clone https://github.com/ryanlin/BagFromLabelledImages.git BagFromLabelledImages
     
-    cd BagFromImages
+    cd BagFromLabelledImages
     mkdir build
     cd build
     cmake ..
@@ -20,7 +20,7 @@ In your ROS_PACKAGE_PATH (check your environment variable ROS_PACKAGE_PATH):
 
 ## Usage:
 
-    rosrun BagFromImages BagFromImages PATH_TO_IMAGES IMAGE_EXTENSION FREQUENCY PATH_TO_OUPUT_BAG
+    rosrun BagFromLabelledImages BagFromImages PATH_TO_IMAGES IMAGE_EXTENSION FREQUENCY PATH_TO_OUPUT_BAG
   
  - `PATH_TO_IMAGES`: Path to the folder with the images
  - `IMAGE_EXTENSION`: .jpg, .png, etc. write the dot "."
